@@ -1,0 +1,1010 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>AHMED-KHAN</Machine>
+    <WindowsUser>ahmed</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>com.duck.app</PackageIdentityName>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="F:\Web Making Libs\duckapp\platforms\windows8\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\images\logo.png">
+      <PackagePath>images\logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\images\smalllogo.png">
+      <PackagePath>images\smalllogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\images\splashscreen.png">
+      <PackagePath>images\splashscreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\images\storelogo.png">
+      <PackagePath>images\storelogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Images\step1p.png">
+      <PackagePath>www\Images\step1p.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Images\step2p.png">
+      <PackagePath>www\Images\step2p.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Images\step3p.png">
+      <PackagePath>www\Images\step3p.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Images\step4p.png">
+      <PackagePath>www\Images\step4p.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Images\step5p.png">
+      <PackagePath>www\Images\step5p.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Images\step6.png">
+      <PackagePath>www\Images\step6.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\img\logo.png">
+      <PackagePath>www\img\logo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\action-black.png">
+      <PackagePath>www\Jquery\images\icons-png\action-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\action-white.png">
+      <PackagePath>www\Jquery\images\icons-png\action-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\alert-black.png">
+      <PackagePath>www\Jquery\images\icons-png\alert-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\alert-white.png">
+      <PackagePath>www\Jquery\images\icons-png\alert-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\arrow-d-black.png">
+      <PackagePath>www\Jquery\images\icons-png\arrow-d-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\arrow-d-l-black.png">
+      <PackagePath>www\Jquery\images\icons-png\arrow-d-l-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\arrow-d-l-white.png">
+      <PackagePath>www\Jquery\images\icons-png\arrow-d-l-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\arrow-d-r-black.png">
+      <PackagePath>www\Jquery\images\icons-png\arrow-d-r-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\arrow-d-r-white.png">
+      <PackagePath>www\Jquery\images\icons-png\arrow-d-r-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\arrow-d-white.png">
+      <PackagePath>www\Jquery\images\icons-png\arrow-d-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\arrow-l-black.png">
+      <PackagePath>www\Jquery\images\icons-png\arrow-l-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\arrow-l-white.png">
+      <PackagePath>www\Jquery\images\icons-png\arrow-l-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\arrow-r-black.png">
+      <PackagePath>www\Jquery\images\icons-png\arrow-r-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\arrow-r-white.png">
+      <PackagePath>www\Jquery\images\icons-png\arrow-r-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\arrow-u-black.png">
+      <PackagePath>www\Jquery\images\icons-png\arrow-u-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\arrow-u-l-black.png">
+      <PackagePath>www\Jquery\images\icons-png\arrow-u-l-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\arrow-u-l-white.png">
+      <PackagePath>www\Jquery\images\icons-png\arrow-u-l-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\arrow-u-r-black.png">
+      <PackagePath>www\Jquery\images\icons-png\arrow-u-r-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\arrow-u-r-white.png">
+      <PackagePath>www\Jquery\images\icons-png\arrow-u-r-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\arrow-u-white.png">
+      <PackagePath>www\Jquery\images\icons-png\arrow-u-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\audio-black.png">
+      <PackagePath>www\Jquery\images\icons-png\audio-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\audio-white.png">
+      <PackagePath>www\Jquery\images\icons-png\audio-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\back-black.png">
+      <PackagePath>www\Jquery\images\icons-png\back-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\back-white.png">
+      <PackagePath>www\Jquery\images\icons-png\back-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\bars-black.png">
+      <PackagePath>www\Jquery\images\icons-png\bars-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\bars-white.png">
+      <PackagePath>www\Jquery\images\icons-png\bars-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\bullets-black.png">
+      <PackagePath>www\Jquery\images\icons-png\bullets-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\bullets-white.png">
+      <PackagePath>www\Jquery\images\icons-png\bullets-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\calendar-black.png">
+      <PackagePath>www\Jquery\images\icons-png\calendar-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\calendar-white.png">
+      <PackagePath>www\Jquery\images\icons-png\calendar-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\camera-black.png">
+      <PackagePath>www\Jquery\images\icons-png\camera-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\camera-white.png">
+      <PackagePath>www\Jquery\images\icons-png\camera-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\carat-d-black.png">
+      <PackagePath>www\Jquery\images\icons-png\carat-d-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\carat-d-white.png">
+      <PackagePath>www\Jquery\images\icons-png\carat-d-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\carat-l-black.png">
+      <PackagePath>www\Jquery\images\icons-png\carat-l-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\carat-l-white.png">
+      <PackagePath>www\Jquery\images\icons-png\carat-l-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\carat-r-black.png">
+      <PackagePath>www\Jquery\images\icons-png\carat-r-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\carat-r-white.png">
+      <PackagePath>www\Jquery\images\icons-png\carat-r-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\carat-u-black.png">
+      <PackagePath>www\Jquery\images\icons-png\carat-u-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\carat-u-white.png">
+      <PackagePath>www\Jquery\images\icons-png\carat-u-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\check-black.png">
+      <PackagePath>www\Jquery\images\icons-png\check-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\check-white.png">
+      <PackagePath>www\Jquery\images\icons-png\check-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\clock-black.png">
+      <PackagePath>www\Jquery\images\icons-png\clock-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\clock-white.png">
+      <PackagePath>www\Jquery\images\icons-png\clock-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\cloud-black.png">
+      <PackagePath>www\Jquery\images\icons-png\cloud-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\cloud-white.png">
+      <PackagePath>www\Jquery\images\icons-png\cloud-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\comment-black.png">
+      <PackagePath>www\Jquery\images\icons-png\comment-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\comment-white.png">
+      <PackagePath>www\Jquery\images\icons-png\comment-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\delete-black.png">
+      <PackagePath>www\Jquery\images\icons-png\delete-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\delete-white.png">
+      <PackagePath>www\Jquery\images\icons-png\delete-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\edit-black.png">
+      <PackagePath>www\Jquery\images\icons-png\edit-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\edit-white.png">
+      <PackagePath>www\Jquery\images\icons-png\edit-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\eye-black.png">
+      <PackagePath>www\Jquery\images\icons-png\eye-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\eye-white.png">
+      <PackagePath>www\Jquery\images\icons-png\eye-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\forbidden-black.png">
+      <PackagePath>www\Jquery\images\icons-png\forbidden-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\forbidden-white.png">
+      <PackagePath>www\Jquery\images\icons-png\forbidden-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\forward-black.png">
+      <PackagePath>www\Jquery\images\icons-png\forward-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\forward-white.png">
+      <PackagePath>www\Jquery\images\icons-png\forward-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\gear-black.png">
+      <PackagePath>www\Jquery\images\icons-png\gear-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\gear-white.png">
+      <PackagePath>www\Jquery\images\icons-png\gear-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\grid-black.png">
+      <PackagePath>www\Jquery\images\icons-png\grid-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\grid-white.png">
+      <PackagePath>www\Jquery\images\icons-png\grid-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\heart-black.png">
+      <PackagePath>www\Jquery\images\icons-png\heart-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\heart-white.png">
+      <PackagePath>www\Jquery\images\icons-png\heart-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\home-black.png">
+      <PackagePath>www\Jquery\images\icons-png\home-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\home-white.png">
+      <PackagePath>www\Jquery\images\icons-png\home-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\info-black.png">
+      <PackagePath>www\Jquery\images\icons-png\info-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\info-white.png">
+      <PackagePath>www\Jquery\images\icons-png\info-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\location-black.png">
+      <PackagePath>www\Jquery\images\icons-png\location-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\location-white.png">
+      <PackagePath>www\Jquery\images\icons-png\location-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\lock-black.png">
+      <PackagePath>www\Jquery\images\icons-png\lock-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\lock-white.png">
+      <PackagePath>www\Jquery\images\icons-png\lock-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\mail-black.png">
+      <PackagePath>www\Jquery\images\icons-png\mail-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\mail-white.png">
+      <PackagePath>www\Jquery\images\icons-png\mail-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\minus-black.png">
+      <PackagePath>www\Jquery\images\icons-png\minus-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\minus-white.png">
+      <PackagePath>www\Jquery\images\icons-png\minus-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\navigation-black.png">
+      <PackagePath>www\Jquery\images\icons-png\navigation-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\navigation-white.png">
+      <PackagePath>www\Jquery\images\icons-png\navigation-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\phone-black.png">
+      <PackagePath>www\Jquery\images\icons-png\phone-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\phone-white.png">
+      <PackagePath>www\Jquery\images\icons-png\phone-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\plus-black.png">
+      <PackagePath>www\Jquery\images\icons-png\plus-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\plus-white.png">
+      <PackagePath>www\Jquery\images\icons-png\plus-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\power-black.png">
+      <PackagePath>www\Jquery\images\icons-png\power-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\power-white.png">
+      <PackagePath>www\Jquery\images\icons-png\power-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\recycle-black.png">
+      <PackagePath>www\Jquery\images\icons-png\recycle-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\recycle-white.png">
+      <PackagePath>www\Jquery\images\icons-png\recycle-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\refresh-black.png">
+      <PackagePath>www\Jquery\images\icons-png\refresh-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\refresh-white.png">
+      <PackagePath>www\Jquery\images\icons-png\refresh-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\search-black.png">
+      <PackagePath>www\Jquery\images\icons-png\search-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\search-white.png">
+      <PackagePath>www\Jquery\images\icons-png\search-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\shop-black.png">
+      <PackagePath>www\Jquery\images\icons-png\shop-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\shop-white.png">
+      <PackagePath>www\Jquery\images\icons-png\shop-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\star-black.png">
+      <PackagePath>www\Jquery\images\icons-png\star-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\star-white.png">
+      <PackagePath>www\Jquery\images\icons-png\star-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\tag-black.png">
+      <PackagePath>www\Jquery\images\icons-png\tag-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\tag-white.png">
+      <PackagePath>www\Jquery\images\icons-png\tag-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\user-black.png">
+      <PackagePath>www\Jquery\images\icons-png\user-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\user-white.png">
+      <PackagePath>www\Jquery\images\icons-png\user-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\video-black.png">
+      <PackagePath>www\Jquery\images\icons-png\video-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-png\video-white.png">
+      <PackagePath>www\Jquery\images\icons-png\video-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\action-black.png">
+      <PackagePath>www\Themes\images\icons-png\action-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\action-white.png">
+      <PackagePath>www\Themes\images\icons-png\action-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\alert-black.png">
+      <PackagePath>www\Themes\images\icons-png\alert-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\alert-white.png">
+      <PackagePath>www\Themes\images\icons-png\alert-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\arrow-d-black.png">
+      <PackagePath>www\Themes\images\icons-png\arrow-d-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\arrow-d-l-black.png">
+      <PackagePath>www\Themes\images\icons-png\arrow-d-l-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\arrow-d-l-white.png">
+      <PackagePath>www\Themes\images\icons-png\arrow-d-l-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\arrow-d-r-black.png">
+      <PackagePath>www\Themes\images\icons-png\arrow-d-r-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\arrow-d-r-white.png">
+      <PackagePath>www\Themes\images\icons-png\arrow-d-r-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\arrow-d-white.png">
+      <PackagePath>www\Themes\images\icons-png\arrow-d-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\arrow-l-black.png">
+      <PackagePath>www\Themes\images\icons-png\arrow-l-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\arrow-l-white.png">
+      <PackagePath>www\Themes\images\icons-png\arrow-l-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\arrow-r-black.png">
+      <PackagePath>www\Themes\images\icons-png\arrow-r-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\arrow-r-white.png">
+      <PackagePath>www\Themes\images\icons-png\arrow-r-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\arrow-u-black.png">
+      <PackagePath>www\Themes\images\icons-png\arrow-u-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\arrow-u-l-black.png">
+      <PackagePath>www\Themes\images\icons-png\arrow-u-l-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\arrow-u-l-white.png">
+      <PackagePath>www\Themes\images\icons-png\arrow-u-l-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\arrow-u-r-black.png">
+      <PackagePath>www\Themes\images\icons-png\arrow-u-r-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\arrow-u-r-white.png">
+      <PackagePath>www\Themes\images\icons-png\arrow-u-r-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\arrow-u-white.png">
+      <PackagePath>www\Themes\images\icons-png\arrow-u-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\audio-black.png">
+      <PackagePath>www\Themes\images\icons-png\audio-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\audio-white.png">
+      <PackagePath>www\Themes\images\icons-png\audio-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\back-black.png">
+      <PackagePath>www\Themes\images\icons-png\back-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\back-white.png">
+      <PackagePath>www\Themes\images\icons-png\back-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\bars-black.png">
+      <PackagePath>www\Themes\images\icons-png\bars-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\bars-white.png">
+      <PackagePath>www\Themes\images\icons-png\bars-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\bullets-black.png">
+      <PackagePath>www\Themes\images\icons-png\bullets-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\bullets-white.png">
+      <PackagePath>www\Themes\images\icons-png\bullets-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\calendar-black.png">
+      <PackagePath>www\Themes\images\icons-png\calendar-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\calendar-white.png">
+      <PackagePath>www\Themes\images\icons-png\calendar-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\camera-black.png">
+      <PackagePath>www\Themes\images\icons-png\camera-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\camera-white.png">
+      <PackagePath>www\Themes\images\icons-png\camera-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\carat-d-black.png">
+      <PackagePath>www\Themes\images\icons-png\carat-d-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\carat-d-white.png">
+      <PackagePath>www\Themes\images\icons-png\carat-d-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\carat-l-black.png">
+      <PackagePath>www\Themes\images\icons-png\carat-l-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\carat-l-white.png">
+      <PackagePath>www\Themes\images\icons-png\carat-l-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\carat-r-black.png">
+      <PackagePath>www\Themes\images\icons-png\carat-r-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\carat-r-white.png">
+      <PackagePath>www\Themes\images\icons-png\carat-r-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\carat-u-black.png">
+      <PackagePath>www\Themes\images\icons-png\carat-u-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\carat-u-white.png">
+      <PackagePath>www\Themes\images\icons-png\carat-u-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\check-black.png">
+      <PackagePath>www\Themes\images\icons-png\check-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\check-white.png">
+      <PackagePath>www\Themes\images\icons-png\check-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\clock-black.png">
+      <PackagePath>www\Themes\images\icons-png\clock-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\clock-white.png">
+      <PackagePath>www\Themes\images\icons-png\clock-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\cloud-black.png">
+      <PackagePath>www\Themes\images\icons-png\cloud-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\cloud-white.png">
+      <PackagePath>www\Themes\images\icons-png\cloud-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\comment-black.png">
+      <PackagePath>www\Themes\images\icons-png\comment-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\comment-white.png">
+      <PackagePath>www\Themes\images\icons-png\comment-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\delete-black.png">
+      <PackagePath>www\Themes\images\icons-png\delete-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\delete-white.png">
+      <PackagePath>www\Themes\images\icons-png\delete-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\edit-black.png">
+      <PackagePath>www\Themes\images\icons-png\edit-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\edit-white.png">
+      <PackagePath>www\Themes\images\icons-png\edit-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\eye-black.png">
+      <PackagePath>www\Themes\images\icons-png\eye-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\eye-white.png">
+      <PackagePath>www\Themes\images\icons-png\eye-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\forbidden-black.png">
+      <PackagePath>www\Themes\images\icons-png\forbidden-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\forbidden-white.png">
+      <PackagePath>www\Themes\images\icons-png\forbidden-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\forward-black.png">
+      <PackagePath>www\Themes\images\icons-png\forward-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\forward-white.png">
+      <PackagePath>www\Themes\images\icons-png\forward-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\gear-black.png">
+      <PackagePath>www\Themes\images\icons-png\gear-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\gear-white.png">
+      <PackagePath>www\Themes\images\icons-png\gear-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\grid-black.png">
+      <PackagePath>www\Themes\images\icons-png\grid-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\grid-white.png">
+      <PackagePath>www\Themes\images\icons-png\grid-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\heart-black.png">
+      <PackagePath>www\Themes\images\icons-png\heart-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\heart-white.png">
+      <PackagePath>www\Themes\images\icons-png\heart-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\home-black.png">
+      <PackagePath>www\Themes\images\icons-png\home-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\home-white.png">
+      <PackagePath>www\Themes\images\icons-png\home-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\info-black.png">
+      <PackagePath>www\Themes\images\icons-png\info-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\info-white.png">
+      <PackagePath>www\Themes\images\icons-png\info-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\location-black.png">
+      <PackagePath>www\Themes\images\icons-png\location-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\location-white.png">
+      <PackagePath>www\Themes\images\icons-png\location-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\lock-black.png">
+      <PackagePath>www\Themes\images\icons-png\lock-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\lock-white.png">
+      <PackagePath>www\Themes\images\icons-png\lock-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\mail-black.png">
+      <PackagePath>www\Themes\images\icons-png\mail-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\mail-white.png">
+      <PackagePath>www\Themes\images\icons-png\mail-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\minus-black.png">
+      <PackagePath>www\Themes\images\icons-png\minus-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\minus-white.png">
+      <PackagePath>www\Themes\images\icons-png\minus-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\navigation-black.png">
+      <PackagePath>www\Themes\images\icons-png\navigation-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\navigation-white.png">
+      <PackagePath>www\Themes\images\icons-png\navigation-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\phone-black.png">
+      <PackagePath>www\Themes\images\icons-png\phone-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\phone-white.png">
+      <PackagePath>www\Themes\images\icons-png\phone-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\plus-black.png">
+      <PackagePath>www\Themes\images\icons-png\plus-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\plus-white.png">
+      <PackagePath>www\Themes\images\icons-png\plus-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\power-black.png">
+      <PackagePath>www\Themes\images\icons-png\power-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\power-white.png">
+      <PackagePath>www\Themes\images\icons-png\power-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\recycle-black.png">
+      <PackagePath>www\Themes\images\icons-png\recycle-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\recycle-white.png">
+      <PackagePath>www\Themes\images\icons-png\recycle-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\refresh-black.png">
+      <PackagePath>www\Themes\images\icons-png\refresh-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\refresh-white.png">
+      <PackagePath>www\Themes\images\icons-png\refresh-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\search-black.png">
+      <PackagePath>www\Themes\images\icons-png\search-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\search-white.png">
+      <PackagePath>www\Themes\images\icons-png\search-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\shop-black.png">
+      <PackagePath>www\Themes\images\icons-png\shop-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\shop-white.png">
+      <PackagePath>www\Themes\images\icons-png\shop-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\star-black.png">
+      <PackagePath>www\Themes\images\icons-png\star-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\star-white.png">
+      <PackagePath>www\Themes\images\icons-png\star-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\tag-black.png">
+      <PackagePath>www\Themes\images\icons-png\tag-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\tag-white.png">
+      <PackagePath>www\Themes\images\icons-png\tag-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\user-black.png">
+      <PackagePath>www\Themes\images\icons-png\user-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\user-white.png">
+      <PackagePath>www\Themes\images\icons-png\user-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\video-black.png">
+      <PackagePath>www\Themes\images\icons-png\video-black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\icons-png\video-white.png">
+      <PackagePath>www\Themes\images\icons-png\video-white.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\cordova.js">
+      <PackagePath>www\cordova.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\cordova_plugins.js">
+      <PackagePath>www\cordova_plugins.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\jquery-1.11.0.min.js">
+      <PackagePath>www\Jquery\jquery-1.11.0.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\jquery.mobile-1.4.3.min.js">
+      <PackagePath>www\Jquery\jquery.mobile-1.4.3.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\js\index.js">
+      <PackagePath>www\js\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\css\index.css">
+      <PackagePath>www\css\index.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\jquery.mobile-1.4.3.min.css">
+      <PackagePath>www\Jquery\jquery.mobile-1.4.3.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\duck.css">
+      <PackagePath>www\Themes\duck.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\duck.min.css">
+      <PackagePath>www\Themes\duck.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\jquery.mobile.icons.min.css">
+      <PackagePath>www\Themes\jquery.mobile.icons.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\DrawingDuckEasySteps.html">
+      <PackagePath>www\DrawingDuckEasySteps.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\index.html">
+      <PackagePath>www\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\ajax-loader.gif">
+      <PackagePath>www\Jquery\images\ajax-loader.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Themes\images\ajax-loader.gif">
+      <PackagePath>www\Themes\images\ajax-loader.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\action-black.svg">
+      <PackagePath>www\Jquery\images\icons-svg\action-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\action-white.svg">
+      <PackagePath>www\Jquery\images\icons-svg\action-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\alert-black.svg">
+      <PackagePath>www\Jquery\images\icons-svg\alert-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\alert-white.svg">
+      <PackagePath>www\Jquery\images\icons-svg\alert-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\arrow-d-black.svg">
+      <PackagePath>www\Jquery\images\icons-svg\arrow-d-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\arrow-d-l-black.svg">
+      <PackagePath>www\Jquery\images\icons-svg\arrow-d-l-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\arrow-d-l-white.svg">
+      <PackagePath>www\Jquery\images\icons-svg\arrow-d-l-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\arrow-d-r-black.svg">
+      <PackagePath>www\Jquery\images\icons-svg\arrow-d-r-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\arrow-d-r-white.svg">
+      <PackagePath>www\Jquery\images\icons-svg\arrow-d-r-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\arrow-d-white.svg">
+      <PackagePath>www\Jquery\images\icons-svg\arrow-d-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\arrow-l-black.svg">
+      <PackagePath>www\Jquery\images\icons-svg\arrow-l-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\arrow-l-white.svg">
+      <PackagePath>www\Jquery\images\icons-svg\arrow-l-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\arrow-r-black.svg">
+      <PackagePath>www\Jquery\images\icons-svg\arrow-r-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\arrow-r-white.svg">
+      <PackagePath>www\Jquery\images\icons-svg\arrow-r-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\arrow-u-black.svg">
+      <PackagePath>www\Jquery\images\icons-svg\arrow-u-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\arrow-u-l-black.svg">
+      <PackagePath>www\Jquery\images\icons-svg\arrow-u-l-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\arrow-u-l-white.svg">
+      <PackagePath>www\Jquery\images\icons-svg\arrow-u-l-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\arrow-u-r-black.svg">
+      <PackagePath>www\Jquery\images\icons-svg\arrow-u-r-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\arrow-u-r-white.svg">
+      <PackagePath>www\Jquery\images\icons-svg\arrow-u-r-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\arrow-u-white.svg">
+      <PackagePath>www\Jquery\images\icons-svg\arrow-u-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\audio-black.svg">
+      <PackagePath>www\Jquery\images\icons-svg\audio-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\audio-white.svg">
+      <PackagePath>www\Jquery\images\icons-svg\audio-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\back-black.svg">
+      <PackagePath>www\Jquery\images\icons-svg\back-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\back-white.svg">
+      <PackagePath>www\Jquery\images\icons-svg\back-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\bars-black.svg">
+      <PackagePath>www\Jquery\images\icons-svg\bars-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\bars-white.svg">
+      <PackagePath>www\Jquery\images\icons-svg\bars-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\bullets-black.svg">
+      <PackagePath>www\Jquery\images\icons-svg\bullets-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\bullets-white.svg">
+      <PackagePath>www\Jquery\images\icons-svg\bullets-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\calendar-black.svg">
+      <PackagePath>www\Jquery\images\icons-svg\calendar-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\calendar-white.svg">
+      <PackagePath>www\Jquery\images\icons-svg\calendar-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\camera-black.svg">
+      <PackagePath>www\Jquery\images\icons-svg\camera-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\camera-white.svg">
+      <PackagePath>www\Jquery\images\icons-svg\camera-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\carat-d-black.svg">
+      <PackagePath>www\Jquery\images\icons-svg\carat-d-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\carat-d-white.svg">
+      <PackagePath>www\Jquery\images\icons-svg\carat-d-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\carat-l-black.svg">
+      <PackagePath>www\Jquery\images\icons-svg\carat-l-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\carat-l-white.svg">
+      <PackagePath>www\Jquery\images\icons-svg\carat-l-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\carat-r-black.svg">
+      <PackagePath>www\Jquery\images\icons-svg\carat-r-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\carat-r-white.svg">
+      <PackagePath>www\Jquery\images\icons-svg\carat-r-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\carat-u-black.svg">
+      <PackagePath>www\Jquery\images\icons-svg\carat-u-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\carat-u-white.svg">
+      <PackagePath>www\Jquery\images\icons-svg\carat-u-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\check-black.svg">
+      <PackagePath>www\Jquery\images\icons-svg\check-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\check-white.svg">
+      <PackagePath>www\Jquery\images\icons-svg\check-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\clock-black.svg">
+      <PackagePath>www\Jquery\images\icons-svg\clock-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\clock-white.svg">
+      <PackagePath>www\Jquery\images\icons-svg\clock-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\cloud-black.svg">
+      <PackagePath>www\Jquery\images\icons-svg\cloud-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\cloud-white.svg">
+      <PackagePath>www\Jquery\images\icons-svg\cloud-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\comment-black.svg">
+      <PackagePath>www\Jquery\images\icons-svg\comment-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\comment-white.svg">
+      <PackagePath>www\Jquery\images\icons-svg\comment-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\delete-black.svg">
+      <PackagePath>www\Jquery\images\icons-svg\delete-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\delete-white.svg">
+      <PackagePath>www\Jquery\images\icons-svg\delete-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\edit-black.svg">
+      <PackagePath>www\Jquery\images\icons-svg\edit-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\edit-white.svg">
+      <PackagePath>www\Jquery\images\icons-svg\edit-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\eye-black.svg">
+      <PackagePath>www\Jquery\images\icons-svg\eye-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\eye-white.svg">
+      <PackagePath>www\Jquery\images\icons-svg\eye-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\forbidden-black.svg">
+      <PackagePath>www\Jquery\images\icons-svg\forbidden-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\forbidden-white.svg">
+      <PackagePath>www\Jquery\images\icons-svg\forbidden-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\forward-black.svg">
+      <PackagePath>www\Jquery\images\icons-svg\forward-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\forward-white.svg">
+      <PackagePath>www\Jquery\images\icons-svg\forward-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\gear-black.svg">
+      <PackagePath>www\Jquery\images\icons-svg\gear-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\gear-white.svg">
+      <PackagePath>www\Jquery\images\icons-svg\gear-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\grid-black.svg">
+      <PackagePath>www\Jquery\images\icons-svg\grid-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\grid-white.svg">
+      <PackagePath>www\Jquery\images\icons-svg\grid-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\heart-black.svg">
+      <PackagePath>www\Jquery\images\icons-svg\heart-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\heart-white.svg">
+      <PackagePath>www\Jquery\images\icons-svg\heart-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\home-black.svg">
+      <PackagePath>www\Jquery\images\icons-svg\home-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\home-white.svg">
+      <PackagePath>www\Jquery\images\icons-svg\home-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\info-black.svg">
+      <PackagePath>www\Jquery\images\icons-svg\info-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\info-white.svg">
+      <PackagePath>www\Jquery\images\icons-svg\info-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\location-black.svg">
+      <PackagePath>www\Jquery\images\icons-svg\location-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\location-white.svg">
+      <PackagePath>www\Jquery\images\icons-svg\location-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\lock-black.svg">
+      <PackagePath>www\Jquery\images\icons-svg\lock-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\lock-white.svg">
+      <PackagePath>www\Jquery\images\icons-svg\lock-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\mail-black.svg">
+      <PackagePath>www\Jquery\images\icons-svg\mail-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\mail-white.svg">
+      <PackagePath>www\Jquery\images\icons-svg\mail-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\minus-black.svg">
+      <PackagePath>www\Jquery\images\icons-svg\minus-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\minus-white.svg">
+      <PackagePath>www\Jquery\images\icons-svg\minus-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\navigation-black.svg">
+      <PackagePath>www\Jquery\images\icons-svg\navigation-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\navigation-white.svg">
+      <PackagePath>www\Jquery\images\icons-svg\navigation-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\phone-black.svg">
+      <PackagePath>www\Jquery\images\icons-svg\phone-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\phone-white.svg">
+      <PackagePath>www\Jquery\images\icons-svg\phone-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\plus-black.svg">
+      <PackagePath>www\Jquery\images\icons-svg\plus-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\plus-white.svg">
+      <PackagePath>www\Jquery\images\icons-svg\plus-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\power-black.svg">
+      <PackagePath>www\Jquery\images\icons-svg\power-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\power-white.svg">
+      <PackagePath>www\Jquery\images\icons-svg\power-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\recycle-black.svg">
+      <PackagePath>www\Jquery\images\icons-svg\recycle-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\recycle-white.svg">
+      <PackagePath>www\Jquery\images\icons-svg\recycle-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\refresh-black.svg">
+      <PackagePath>www\Jquery\images\icons-svg\refresh-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\refresh-white.svg">
+      <PackagePath>www\Jquery\images\icons-svg\refresh-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\search-black.svg">
+      <PackagePath>www\Jquery\images\icons-svg\search-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\search-white.svg">
+      <PackagePath>www\Jquery\images\icons-svg\search-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\shop-black.svg">
+      <PackagePath>www\Jquery\images\icons-svg\shop-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\shop-white.svg">
+      <PackagePath>www\Jquery\images\icons-svg\shop-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\star-black.svg">
+      <PackagePath>www\Jquery\images\icons-svg\star-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\star-white.svg">
+      <PackagePath>www\Jquery\images\icons-svg\star-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\tag-black.svg">
+      <PackagePath>www\Jquery\images\icons-svg\tag-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\tag-white.svg">
+      <PackagePath>www\Jquery\images\icons-svg\tag-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\user-black.svg">
+      <PackagePath>www\Jquery\images\icons-svg\user-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\user-white.svg">
+      <PackagePath>www\Jquery\images\icons-svg\user-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\video-black.svg">
+      <PackagePath>www\Jquery\images\icons-svg\video-black.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\www\Jquery\images\icons-svg\video-white.svg">
+      <PackagePath>www\Jquery\images\icons-svg\video-white.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Web Making Libs\duckapp\platforms\windows8\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\">
+      <Name>Microsoft.WinJS.1.0</Name>
+      <Version>1.0.9200.20512</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.1.0, MinVersion=1.0.9200.20512</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\Microsoft.WinJS.1.0.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

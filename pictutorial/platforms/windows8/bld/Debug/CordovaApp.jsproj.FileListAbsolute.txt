@@ -1,0 +1,17 @@
+F:\Web Making Libs\duckapp\platforms\windows8\bin\Debug\resources.pri
+F:\Web Making Libs\duckapp\platforms\windows8\bin\Debug\AppxManifest.xml
+F:\Web Making Libs\duckapp\platforms\windows8\bin\Debug\CordovaApp.build.appxrecipe
+F:\Web Making Libs\duckapp\platforms\windows8\bld\Debug\priconfig.xml
+F:\Web Making Libs\duckapp\platforms\windows8\bld\Debug\priconfig.xml.intermediate
+F:\Web Making Libs\duckapp\platforms\windows8\bld\Debug\layout.resfiles
+F:\Web Making Libs\duckapp\platforms\windows8\bld\Debug\layout.resfiles.intermediate
+F:\Web Making Libs\duckapp\platforms\windows8\bld\Debug\resources.resfiles
+F:\Web Making Libs\duckapp\platforms\windows8\bld\Debug\resources.resfiles.intermediate
+F:\Web Making Libs\duckapp\platforms\windows8\bld\Debug\pri.resfiles
+F:\Web Making Libs\duckapp\platforms\windows8\bld\Debug\pri.resfiles.intermediate
+F:\Web Making Libs\duckapp\platforms\windows8\bld\Debug\qualifiers.txt
+F:\Web Making Libs\duckapp\platforms\windows8\bld\Debug\qualifiers.txt.intermediate
+F:\Web Making Libs\duckapp\platforms\windows8\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+F:\Web Making Libs\duckapp\platforms\windows8\bld\Debug\ProjectArchitectures.txt
+F:\Web Making Libs\duckapp\platforms\windows8\bld\Debug\package.map.txt
+F:\Web Making Libs\duckapp\platforms\windows8\bld\Debug\_pkginfo.txt
